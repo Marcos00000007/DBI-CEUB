@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D65F2667-C107-3583-ADA3-E6042CADEF73" name="Índice de Massa Corporal">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 22:47:16 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>IMC</preferredAbbreviation>
+<shortName>Indice_MC</shortName>
+<synonym>Indice_MC</synonym>
+<synonymToDisplay>Indice_MC</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="peso" id="62256574-EE6E-C983-4D85-20D0C47503C2">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 22:53:04 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="BA4C757E-A9E5-2F7C-2989-18EC1AF58EBC">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 22:54:03 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idade" id="DAB2C030-FB1A-11F5-074F-397FB05C9DF7">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:14:55 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="18kdDivididoAom2BaixoPeso" id="EC9C6E30-809B-023B-EDFC-E519E172DF61">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:22:17 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="19a24kgDividoAom2PesoAdequado" id="B8277D1B-7827-0694-EA67-C844F7AC116E">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:24:15 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="25a29kgDivididoAom2sobrepeso" id="6E40AE72-644F-DFE9-B0AB-634408ED3473">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:27:43 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="30a34kgDivididoAom2obesidadegrauI" id="D022BB7C-3967-EF7A-6B91-F199D0555926">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:28:47 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="35a39kdDivididom2ObesidadegrauII" id="43E5746E-6048-A8BE-D4EB-73B67C3DAE7D">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:32:18 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="40ParaCimaobesidadegrauIII" id="D44D8F3E-6382-9492-4390-40B98E25F13B">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:29:35 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

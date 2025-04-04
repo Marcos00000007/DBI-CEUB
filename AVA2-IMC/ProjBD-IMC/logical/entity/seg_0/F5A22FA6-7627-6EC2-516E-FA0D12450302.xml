@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5A22FA6-7627-6EC2-516E-FA0D12450302" name="cliente">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:06:14 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>clt</preferredAbbreviation>
+<shortName>cliente</shortName>
+<synonym>cliente</synonym>
+<synonymToDisplay>CLIENTE</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="5AB99ADB-9BF6-4CAD-9F92-4540254815B2">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:06:54 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="E2475C51-DE63-B892-62E9-841E55E5B02A">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:07:02 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="CCC7191D-3D6E-A573-1981-FE69A7E46076">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:07:10 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="3130D1F3-ED1E-6FAF-1A09-5CFC2C59D4CC">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:07:23 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idade" id="DE96C14D-8EB0-7142-2A37-BDC6176F04FF">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-04-03 23:07:39 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="B57129BC-74AD-B37D-3A66-703D4990191D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
