@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD7B4713-0F99-D741-3419-4667409B6A99" name="Clientes">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<generatorID>004BF3B5-B214-BF46-9910-3E98D392E9D8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeCliente" id="D163C5E6-0AF1-01D8-6A02-84B0D7287D87">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<generatorID>48FE674E-76A7-7C1D-EECE-2DEE69AF935F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroEnderecoCliente" id="9DEB195E-B3C5-2AFC-D3C8-50F411DFB5F5">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<generatorID>10DE5D2E-3CAD-EF02-BFB4-C38B46CAB7E1</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lograduoroEnderecoCliente" id="624CC508-E900-E4E4-5E57-58BF32B92436">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<generatorID>0178C35F-F2E0-A3B8-7C38-0E8BCEFBA34C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEnderecoCliente" id="C3EE2A76-09AF-DB49-9668-8DD04CF1B239">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<generatorID>CCF65F30-385A-6BE0-3EA5-3A8B2D8F1763</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeEnderecoCliente" id="7344C0DA-7638-B85B-55A3-604D0BD9301E">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<generatorID>EA5664CA-F85D-9FCA-35B0-22A6139748B4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEnderecoCliente" id="4072EF8F-934C-84FD-1DB6-0634CA954420">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<generatorID>4B6E2ED1-BA7A-6033-7A74-E8B2F4CBB88E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEnderecoCliente" id="F510499B-390C-67B8-C711-CE8EC50259DA">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<generatorID>873898C5-CD15-E5F5-AB54-61E8530B8D49</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedor_Vendedor_ID" id="E7CC00C3-A2BA-65D2-CB72-AA5887147420">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35B7C3A9-F29D-AF59-A981-729931738A85" referredColumn="9409A8A3-2496-3FFB-24EA-B9E527E1D9A9"/>
+</associations>
+</Column>
+<Column name="emailsCliente" id="0B8EDE86-69CE-F396-152E-DCBB0B5B0F30">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<comment><![CDATA[Emails do cliente.]]></comment>
+<generatorID>33FED824-84B7-C843-E0DA-6B0A1C69461A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4DF5D8B-9270-5827-6607-FD9CCE2B05B4" name="Clientes_PK">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<generatorID>C7CF51E7-13F5-DFDC-71BE-56A0B9C88534</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="4134DAFC-A746-DC69-579F-99B677127495" name="Clientes_Vendedor_FK">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-09 00:42:02 UTC</createdTime>
+<generatorID>8A3AEB9B-9A2D-5A1F-F615-141C3F72A112</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7CC00C3-A2BA-65D2-CB72-AA5887147420"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
