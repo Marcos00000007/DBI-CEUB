@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1263DC12-3286-7AB7-6A43-072BD45C149C" name="GrauParentesco">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:38:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="grauPerentesco" id="C28B8E63-9F9F-45A6-C641-0FCC2C9CF327">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:38:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cprTitular" id="238CC8D6-EEBC-46E4-018C-6150D58121D7">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:46:53 UTC</createdTime>
+<generatorID>D956C33F-4374-FFAB-58B6-8780FF1A50EC</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<referedAttribute>DFE70ABC-6572-2D6A-93F5-76949DE5B93A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cprDependente" id="8A4F9763-97EA-3E48-9BBE-1320632F63D8">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:47:15 UTC</createdTime>
+<generatorID>87282BA8-9D18-931F-4597-7CE322A2291A</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<referedAttribute>662F3F7B-925F-9FDD-037D-83E16A8CA990</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEF3B0BE-5DFD-2F4C-DD89-7E33571F85BC" name="GrauParentesco PK">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:39:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C28B8E63-9F9F-45A6-C641-0FCC2C9CF327</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DF9F43E-DE14-2E24-130C-F7FF8FA752F6" name="ValorMensalidade">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:40:23 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>vlm</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="valorMensalidade" id="3BAE2408-E432-7DA9-7EA3-781487EDD365">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:41:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cprTitular" id="E76E52B1-AC91-D712-8DDA-B23C0643899D">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:51:45 UTC</createdTime>
+<generatorID>B92C0803-B1D2-6C98-AFCA-6553D61C7FC0</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<referedAttribute>DFE70ABC-6572-2D6A-93F5-76949DE5B93A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="02437C31-A84B-9AC6-DDE1-30D2BED41C31" name="ValorMensalidade PK">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:41:27 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3BAE2408-E432-7DA9-7EA3-781487EDD365</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

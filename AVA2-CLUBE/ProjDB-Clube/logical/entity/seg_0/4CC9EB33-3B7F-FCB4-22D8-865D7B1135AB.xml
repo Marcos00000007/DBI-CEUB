@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CC9EB33-3B7F-FCB4-22D8-865D7B1135AB" name="ClienteTitular">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:09:20 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>clt</preferredAbbreviation>
+<shortName>Cliente</shortName>
+<synonym>Cliente</synonym>
+<synonymToDisplay>ClienteTitular</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cprTitular" id="DFE70ABC-6572-2D6A-93F5-76949DE5B93A">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:11:16 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="51FFDDDB-C632-87B8-FF71-9772EFCDE09D">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:09:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="34C0C43E-E3D9-6E7F-A211-E4A2174F58BF">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:51:14 UTC</createdTime>
+<generatorID>15F2AE20-319A-87FD-7103-3B0DB8793A1F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<referedAttribute>F9162619-8F20-720A-C047-4046B2CFDFF4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoTitular" id="947702C6-7F29-F0AD-547B-D08A0109DA33">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:52:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C480132-43AE-EAF9-794C-FF52900CDDC8" name="Cliente PK">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:11:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DFE70ABC-6572-2D6A-93F5-76949DE5B93A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

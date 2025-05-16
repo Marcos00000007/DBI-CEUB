@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5E9356A-CED3-CAC5-32C2-277385E59DD0" name="EndereçoTitular">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:19:26 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ett</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="F9162619-8F20-720A-C047-4046B2CFDFF4">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:20:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoTitular" id="6AD69CA1-1F4A-6EF9-6BE7-4016676455DC">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:20:54 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecotitular" id="84FA5B71-1C20-7720-B94F-0014AE13F3DC">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:21:41 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEnderecoTitular" id="76D423FB-C2E2-EE80-8A9D-4C97A8405A74">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:22:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairroEnderecoTitular1" id="F9035EF7-AD95-A8D7-DC16-76FF5EA1EA5E">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:24:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEnderecoTitular" id="A9FC0FD2-894A-2E13-07F4-304AEA47E365">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:25:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEnderecoTitular" id="C1593E18-9AF3-6216-3AE9-885F0CC00E8D">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:30:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cprTitular" id="193D7869-B08A-71D7-54CE-99B2DB28DB72">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:47:58 UTC</createdTime>
+<generatorID>15F2AE20-319A-87FD-7103-3B0DB8793A1F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<referedAttribute>DFE70ABC-6572-2D6A-93F5-76949DE5B93A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="208E69F8-B243-E325-C2EE-6802B0E4A3B1" name="EndereçoTitular PK">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:20:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9162619-8F20-720A-C047-4046B2CFDFF4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

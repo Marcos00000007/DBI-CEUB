@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mensalidade" directorySegmentName="seg_0" id="BCB3A636-09D4-02EC-932B-E0544F818C5F">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:45:26 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7DF9F43E-DE14-2E24-130C-F7FF8FA752F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>41653FC6-20EE-89F0-CA4A-E9B61CC55B50</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41653FC6-20EE-89F0-CA4A-E9B61CC55B50" name="DataVencimento">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:41:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>dtv</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="valorMensalidade" id="A32E8065-E1E3-3A04-AA63-BAD7FA0D553D">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:45:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataVencimentoMensalidade" id="47395DF3-8C7A-47DF-404F-7CFE7DDC29F4">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:41:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referenciaMensalidade" id="CCB17DB9-7719-954D-4794-54D1F312007A">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:43:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPagamentoMensalidade" id="0C92FEBC-6486-1EDC-A4AA-326F55E4B2FD">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:43:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32FE1D01-8D93-66E3-8041-83D2B822AC06" name="DataVencimento PK">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:42:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A32E8065-E1E3-3A04-AA63-BAD7FA0D553D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

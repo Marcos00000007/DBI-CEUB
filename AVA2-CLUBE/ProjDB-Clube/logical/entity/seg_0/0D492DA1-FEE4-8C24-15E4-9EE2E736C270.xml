@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D492DA1-FEE4-8C24-15E4-9EE2E736C270" name="ClienteDependente">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:25:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Cliente</shortName>
+<synonym>Cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cprDependente" id="662F3F7B-925F-9FDD-037D-83E16A8CA990">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:25:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="D672870C-3D8E-9000-D8FE-D2C0ED03D15F">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:25:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cprTitular" id="381A16E4-F50B-D92D-F63F-CA6548435130">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:48:33 UTC</createdTime>
+<generatorID>0AEA379B-5595-B5F0-67CE-4E00A95915A1</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<referedAttribute>DFE70ABC-6572-2D6A-93F5-76949DE5B93A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente1" id="9B05B060-3C5A-AA4F-E23D-EE6018B39B01">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:50:45 UTC</createdTime>
+<generatorID>A98098FF-04AC-AB98-C323-ED035B19F12F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<referedAttribute>8A16F500-8A86-1F94-6AD2-5F0FCEFF6717</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoDependete" id="4E18F5CD-C2B0-8703-1B13-40ACA351FAB5">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:52:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D88C9561-89A1-E1E4-038B-F8ABD4083F8C" name="Cliente PK">
+<createdBy>marcos.belo</createdBy>
+<createdTime>2025-05-15 23:25:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="58D84529-6C71-D814-1D6E-9BA1E9519294" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>662F3F7B-925F-9FDD-037D-83E16A8CA990</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
